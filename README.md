@@ -10,9 +10,12 @@
         The mean, +- 3 standard deviations, covers 99% of a distribution (if normally distributed).
     *Variance - The square of the standard deviation.
 
+![java-stats-central-tendency](https://github.com/lukepollen/pollenStats/blob/master/centralTendency.png)
+![java-stats-std-distribution-shape](https://github.com/lukepollen/pollenStats/blob/master/std-dev-low-high.png)
 ### Least squares regressions for determining a line of best fit for data points mapped on an X and Y axis. 
     -(https://www.khanacademy.org/math/ap-statistics/bivariate-data-ap/least-squares-regression/v/regression-residual-intro)
-    
+ 
+![java-stats-linear-regression](https://github.com/lukepollen/pollenStats/blob/master/linearRegression.png)
 ### Calculation of the Pearson coefficent, used to determine the least squares regression formula for two variables, which is the correlation between two variables, and calculation of the covariance, a measure of the joint variability of two random variables.
     - (https://statistics.laerd.com/statistical-guides/pearson-correlation-coefficient-statistical-guide.php)
     - (https://en.wikipedia.org/wiki/Covariance)    
@@ -43,7 +46,8 @@
     hyperGeometricProbability(52, 4, 5, 2) // What are the odds of two kings in a poker hand of 5 cards? 
     This calculation would make the following effective calls to combinations: 
         (combinations(4, 2)*combinations(48, 5-2))/combinations(52,5);
-        
+
+![java-stats-discrete-distributions](https://github.com/lukepollen/pollenStats/blob/master/binomial%20geometric%20negative%20binomial.jpg)
 ### Measures of statistical significance (non Bayesian) which can be used in hypothesis testing. 
     *Standard error of mean
      A probabilistic statement about how the sample size will provide a better bound on estimates of the population mean,
@@ -93,10 +97,13 @@
      The hypothesis that a data set in a regression analysis follows the simpler of two proposed linear models that are nested
      within each other.
 
+![java-stats-z-test](https://github.com/lukepollen/pollenStats/blob/master/hypothesis-testing-z-test-ttest-ftest-11-638.jpg)
+![java-stats-paired-t-test](https://github.com/lukepollen/pollenStats/blob/master/t-test-paired1_orig.png)
 ### Analysis of Variance
     Returns a map describe the total sum of squares, the sum of squares degrees freedom, the sum of the squares within,
     the sum of the squares between, the sum of squares between degrees of freedom and the F statistic for this data.
 
+![java-stats-anova](https://github.com/lukepollen/pollenStats/blob/master/anova.gif)
 ### Some other mathematical functions are included which may prove of use, including:
     Functions which return the total possible number of permutations, combinations for n and k, and factorial value,
     Truth tables of an arbitary size can be generated to check boolean values of combinations of premises.    
