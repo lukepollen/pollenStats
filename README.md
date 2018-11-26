@@ -3,8 +3,8 @@
 ### This package will help you explore your data with the following functionality:
 
 ### Discovering standard statistical values relating to the shape and central measures of your distribution:
-    -**Mean** - Average value
--**Median** - Middle value if all values are ordered (50th percentile)
+    **Mean** - Average value
+    **Median** - Middle value if all values are ordered (50th percentile)
 -**Interquantile ranges** - 25th and 75th percentiles.
 -**Standard deviation** - A measure of how much values deviate from the mean. The mean, +- 3 standard deviations, covers 99% of a distribution (if normally distributed).
 -**Variance** - The square of the standard deviation.
