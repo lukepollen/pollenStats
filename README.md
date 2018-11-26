@@ -18,8 +18,9 @@
 ![java-stats-linear-regression](https://github.com/lukepollen/pollenStats/blob/master/linearRegression.png)
 ### Calculation of the Pearson coefficent, used to determine the least squares regression formula for two variables, which is the correlation between two variables, and calculation of the covariance, a measure of the joint variability of two random variables.
     - (https://statistics.laerd.com/statistical-guides/pearson-correlation-coefficient-statistical-guide.php)
-    - (https://en.wikipedia.org/wiki/Covariance)    
-
+    - (https://en.wikipedia.org/wiki/Covariance)  
+    
+![java-stats-pearson-coefficent-covariance](https://github.com/lukepollen/pollenStats/blob/master/pearson-coeff-bcon.jpg)
 ### Probability and culumative probability functions for working with the discrete binomial, poisson and hypergeometric probability distributions. 
     *Binomial functions - (For an introduction to the distribution, see (https://www.youtube.com/watch?v=qIzC1-9PwQo)
     Allows the user to determine  the binomial probability for x successes in n trials for some probability p and a 
@@ -48,6 +49,7 @@
         (combinations(4, 2)*combinations(48, 5-2))/combinations(52,5);
 
 ![java-stats-discrete-distributions](https://github.com/lukepollen/pollenStats/blob/master/binomial%20geometric%20negative%20binomial.jpg)
+![java-stats-poisson-distributions](https://github.com/lukepollen/pollenStats/blob/master/xpoisson-distribution-formula.png)
 ### Measures of statistical significance (non Bayesian) which can be used in hypothesis testing. 
     *Standard error of mean
      A probabilistic statement about how the sample size will provide a better bound on estimates of the population mean,
@@ -108,3 +110,4 @@
     Functions which return the total possible number of permutations, combinations for n and k, and factorial value,
     Truth tables of an arbitary size can be generated to check boolean values of combinations of premises.    
 
+![java-sats-permutations-combinations-factorial](https://github.com/lukepollen/pollenStats/blob/master/math-combinations-permutations.png)
